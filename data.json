@@ -25,17 +25,4 @@
             }
         ]
     },
-    {
-        "title": "CL Absorption 3",
-        "date": "01-04-2024",
-        "cover": ["https://i.imgur.com/BEByMF0.png", "https://i.imgur.com/BEByMF0.png"],
-        "messages": [
-            {
-                "texts": ["ciao", "lezzo"] 
-            },
-            {
-                "texts": ["mazzo", "ccecco"]
-            }
-        ]
-    }
 ]
