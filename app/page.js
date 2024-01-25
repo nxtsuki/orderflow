@@ -1,12 +1,23 @@
-import Layout from "@/components/layout";
-import axios from 'axios';
+import { Inter } from 'next/font/google';
+import Head from 'next/head';
+import './globals.css';
 
-async function getPageData() {
-    const response = await axios.get("https://orderflow.site/data.json");
-    return response.data
+const inter = Inter({ subsets: ['latin'], variable: "--font-sans" });
+
+export const metadata = {
+  title: 'orderflow',
+  description: 'private orderflow website',
 }
 
-export default async function Landing() {
-    const data = await getPageData();
-    return <Layout defSnaps={data}/>
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <Head>
+        <meta httpEquiv='cache-control' content='no-cache' />
+        <meta httpEquiv='expires' content='0' />
+        <meta httpEquiv='pragma' content='no-cache' />
+      </Head>
+      <body className={`${inter.variable}`}>{children}</body>
+    </html>
+  )
 }
