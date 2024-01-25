@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTrigger, DialogTitle } from "./ui/dialog";
+import { Separator } from "./ui/separator";
 
 export function Snapshots({ snaps }) {
     return (
@@ -9,7 +10,7 @@ export function Snapshots({ snaps }) {
                     <div className="relative w-full h-[300px] rounded-lg">
                         <div className="z-10 absolute h-full w-full bg-gradient-to-b from-transparent to-[#0C0A09] rounded-lg"/>
                         <Image
-                            src={snaps.cover[0]}
+                            src={snaps.snapinfos[0].img[0]}
                             alt="Your Image Alt Text"
                             layout="fill"
                             objectFit="cover"
@@ -38,23 +39,34 @@ export function Snapshots({ snaps }) {
                 </DialogHeader>
                 <div className="w-full h-[calc(100%-44px)] overflow-y-scroll pr-1">
                     <div className="flex flex-col w-full h-full space-y-10">
-                        {snaps.cover.map((item, index) => (
-                            <div key={index}>
-                                <Image
-                                    src={item}
-                                    alt="Your Image Alt Text"
-                                    width="0"
-                                    height="0"
-                                    sizes="100vw"
-                                    className="w-full h-auto"
-                                />
-                                <div className="pt-2">
-                                    <span className="text-sm text-muted-foreground">Reeve Messages</span>
-                                    {snaps.messages.map((item2, index2) => (
-                                        <span key={index2} className="flex flex-col">
-                                            {"[08:01 PM] " + item2.texts[index]}
-                                        </span>
-                                    ))}
+                        {snaps.snapinfos.map((snapinfo, snapIndex) => (
+                            <div className="space-y-8" key={snapIndex}>
+                                <p className="text-center text-2xl">Example #{String(Number(snapIndex + 1))}</p>
+                                {snapinfo.img.map((imgSrc, imgIndex) => (
+                                    <div key={imgIndex}>
+                                        <Image
+                                            src={imgSrc}
+                                            alt={"img" + String(imgIndex)}
+                                            width="0"
+                                            height="0"
+                                            sizes="100vw"
+                                            className="w-full h-auto"
+                                        />
+                                        {
+                                            snapinfo.texts[imgIndex] ?
+                                                <div className="pt-2">
+                                                    <span className="text-sm text-muted-foreground">Reeve Messages</span>
+                                                    <span className="flex flex-col">
+                                                        {snapinfo.texts[imgIndex]}
+                                                    </span>
+                                                </div>
+                                            :
+                                                null
+                                        }
+                                    </div>
+                                ))}
+                                <div className="pt-4">
+                                    <Separator className="mt-4" />
                                 </div>
                             </div>
                         ))}
