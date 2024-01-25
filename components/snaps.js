@@ -56,9 +56,13 @@ export function Snapshots({ snaps }) {
                                             snapinfo.texts[imgIndex] ?
                                                 <div className="pt-2">
                                                     <span className="text-sm text-muted-foreground">Reeve Messages</span>
-                                                    <span className="flex flex-col">
-                                                        {snapinfo.texts[imgIndex]}
-                                                    </span>
+                                                    {snapinfo.texts[imgIndex].split(' \n ').map((line, lineIndex) => (
+                                                        <span className="flex flex-col" key={lineIndex}>
+                                                            {line}
+                                                            <br/>
+                                                        </span>
+                                                    ))}
+                                                    
                                                 </div>
                                             :
                                                 null
