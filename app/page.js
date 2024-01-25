@@ -2,7 +2,6 @@ import fsPromises from 'fs/promises';
 import path from 'path'
 import Layout from "@/components/layout";
 import axios from 'axios';
-export const dynamic = 'force-dynamic';
 
 async function getPageData() {
     const response = await axios.get("https://github.com/nxtsuki/orderflow/blob/main/data.json");
