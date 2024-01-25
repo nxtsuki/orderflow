@@ -1,17 +1,12 @@
-import { Inter } from 'next/font/google';
-import './globals.css';
+import Layout from "@/components/layout";
+import axios from 'axios';
 
-const inter = Inter({ subsets: ['latin'], variable: "--font-sans" });
-
-export const metadata = {
-  title: 'Snaps Vault',
-  description: 'Private website',
+async function getPageData() {
+    const response = await axios.get("https://orderflow.site/data.json");
+    return response.data
 }
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={`${inter.variable}`}>{children}</body>
-    </html>
-  )
+export default async function Landing() {
+    const data = await getPageData();
+    return <Layout defSnaps={data}/>
 }
