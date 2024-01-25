@@ -20,15 +20,6 @@ export default function Layout({defSnaps}) {
     const [date, setDate] = useState({});
     const [snaps, setSnaps] = useState(defSnaps);
 
-    /* useEffect(() => {
-        x()
-    }, [])
-
-    const x = async () => {
-        const response = await axios.get("https://maurotonetti.it/");
-        console.log(response)
-    } */
-
     const search = (query) => {
         if (!query) {
           setSnaps(defSnaps);
@@ -56,7 +47,7 @@ export default function Layout({defSnaps}) {
             <div className="flex flex-col h-[11rem]">
                 <div className="mt-6 space-y-1">
                     <h2 className="text-2xl font-semibold tracking-tight">
-                        Reeve's Vault
+                        Reeve&apos;s Vault
                     </h2>
                     <p className="text-sm text-muted-foreground">
                         An archive of Reeve Order Flow snapshots.
