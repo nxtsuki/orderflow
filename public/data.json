@@ -1,15 +1,83 @@
 [
     {
-        "title": "GC Absorption 1",
-        "date": "01-03-2024",
+        "title": "CL Squeeze 5",
+        "date": "01-24-2024",
         "snapinfos": [
             {
-                "img": ["https://i.imgur.com/BEByMF0.png", "https://i.imgur.com/BEByMF0.png"],
-                "texts": ["prova"]
+                "img": ["https://i.gyazo.com/cd6b904cdb59b097273b6234375e17e8.png"],
+                "texts": ["> selling for the squeeze of the bottom edge"]
+            }
+        ]
+    },
+    {
+        "title": "CL Fresh Air 4",
+        "date": "01-24-2024",
+        "snapinfos": [
+            {
+                "img": ["https://i.gyazo.com/87b3b4c3a9ba988d85cb4faf5202781b.png"],
+                "texts": ["> see how you can sell at lower prices even though you would be tempted to buy back up towards the lines , once they all turn, that is the direction we going in \n > and now that you are in front of the lines you want to be selling"]
             },
             {
-                "img": ["https://i.imgur.com/BEByMF0.png", "https://i.imgur.com/BEByMF0.png"],
-                "texts": ["prova"]
+                "img": ["https://i.gyazo.com/0c6a541bfa1328d3a8ee638f16b75059.png"],
+                "texts": ["> the deltas got far to long"]
+            }
+        ]
+    },
+    {
+        "title": "CL Fresh Air 3",
+        "date": "01-24-2024",
+        "snapinfos": [
+            {
+                "img": ["https://i.gyazo.com/b2f395a330a2fd14d1a4d8cfb79e7440.png"],
+                "texts": ["> see the sell. all  the lines turned down, if I had taken it on the next candle to the right that would been a prefect example of a fresh air sell"]
+            }
+        ]
+    },
+    {
+        "title": "CL Competitive Auction 2",
+        "date": "01-24-2024",
+        "snapinfos": [
+            {
+                "img": ["https://i.gyazo.com/e681e09f909400d7d1582545e27699ef.png", "https://i.gyazo.com/76e0ff1f88cb92b4e2b67d3149b1bc44.png", "https://cdn.discordapp.com/attachments/1200183617398259797/1200183688714006678/image_2024_01_24T15_25_04_025Z.png?ex=65c54129&is=65b2cc29&hm=78b9e70df32f085915fcb7cf7325062fae7f01f179b14338aa7a49d2f35caafe&"],
+                "texts": ["> just bought anyone know why", "> That was a competitive auction", "> that was the book flip \n > yes it`s an aggressive but when the book and the delta lead the red tick \n > not often that you see it though \n > whats a little confusing about it is that the one line can be diverging on the macro and the other on the micro so in that trade I took, the delta had been diverging on the macro and I had to wait for the book to flip which happened on the micro"]
+            },
+            {
+                "img": ["https://cdn.discordapp.com/attachments/1200183617398259797/1200202587799031928/image.png?ex=65c552c3&is=65b2ddc3&hm=7d011f94329f6534d200a3d27be37c1d5e9fe984363ecafa6d4fe70447cdabed&"],
+                "texts": ["> here is a right hand edge example book and delta leading red tick \n > "]
+            },
+            {
+                "img": ["https://cdn.discordapp.com/attachments/1200183617398259797/1200203976847663184/image.png?ex=65c5540e&is=65b2df0e&hm=4332eb9dde8eeca0daa197918bb4e39cd2f1771f32eba42c7ea2e2ef5de3d28b&"],
+                "texts": ["> here is an aggressive short \n > book and delta going down, red tick up \n > Dont let the aggressive buy or sell mess with your heads"]
+            },
+            {
+                "img": ["https://i.gyazo.com/ad402df1faf480766aee7d5f9d9786f5.png"],
+                "texts": ["> here is another example of an aggressive sell, see the delta and book leading the red tick"]
+            },
+            {
+                "img": ["https://i.gyazo.com/60c5295fd7e0729e22fe5e745e52f77a.png"],
+                "texts": ["> another aggressive sell see if you can spot it on the green (vertical) line \n "]
+            },
+            {
+                "img": ["https://cdn.discordapp.com/attachments/1200183617398259797/1200204793671602186/image.png?ex=65c554d1&is=65b2dfd1&hm=538d81589666305a84fcbd3c0a201fde4a9d21e07b7b2c5d31f2375d8485c390&"],
+                "texts": ["> ok here is the normal way that Ray has taught us to trade the lines, in the circle you see the book falling and the red tick is falling however deltas go up, that what we normally wanyt to see, those deltas are now trapped and we sell \n > the agressive trade is the other way round book and delta falling with red tick left behind"]
+            },
+            {
+                "img": ["https://i.gyazo.com/669439fba302d47ba392b8c6c8c0eb5b.png"],
+                "texts": ["> perfect orderflow sell, into a royal zone, the book and tick turned but the delta went up trapping the buyers, the delta went up on a red candle so it was a competative selling auction as well"]
+            },
+            {
+                "img": ["https://i.gyazo.com/3a06645a2549eb4e1459ca4dfef25ad3.png"],
+                "texts": ["> aggressive buy, delta and book leading tick"]
+            }
+        ]
+    },
+    {
+        "title": "CL Exhaustion 1",
+        "date": "01-24-2024",
+        "snapinfos": [
+            {
+                "img": ["https://gyazo.com/e03afd9764525d324c829bb7feb51e2b.png"],
+                "texts": ["> nice oil sell"]
             }
         ]
     }
