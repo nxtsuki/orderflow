@@ -1,5 +1,5 @@
 import Layout from "@/components/snapshots/layout";
-import axios from 'axios';
+import axios from 'axios'
 
 async function getPageData() {
     const response = await axios.get("https://orderflow.site/data.json");
