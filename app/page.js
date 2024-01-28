@@ -1,4 +1,4 @@
-import Layout from "@/components/layout";
+import Layout from "@/components/snapshots/layout";
 import axios from 'axios';
 
 async function getPageData() {
