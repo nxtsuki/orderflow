@@ -4,7 +4,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: "--font-sans" });
 
 export const metadata = {
-  title: 'Vault - OF Examples',
+  title: 'Vault - Reeve Setups Archive',
   description: 'Private website',
 }
 
