@@ -57,8 +57,8 @@ export function Chats({ chats }) {
                                         null
                                     }
                                     {chat?.message?.split(' \n ').map((line, lineIndex) => (
-                                        <div>
-                                            <p className="bg-stone-800 rounded-lg py-2 px-3 inline-block font-light" key={lineIndex}>
+                                        <div key={lineIndex}>
+                                            <p className="bg-stone-800 rounded-lg py-2 px-3 inline-block font-light">
                                                 {line}
                                                 <br/>
                                             </p>
